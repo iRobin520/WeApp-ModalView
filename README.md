@@ -15,7 +15,7 @@ import { ModalView } from '../../../../components/modal-view/modal-view'
 在onLoad事件中加入：
 new ModalView
 
-在你自己定义的事件中加入：
+在你自己定义的事件中加入：<br>
 this.modalView.showModal({<br>
 　　title: '申请退货',<br>
 　　confirmation: true,<br>
@@ -27,13 +27,13 @@ this.modalView.showModal({<br>
 　　　fieldDatasource: reasons,<br>
 　　　isRequired: true,<br>
 　　},<br>
-　　{
+　　{<br>
 　　　fieldName: 'test',<br>
 　　　fieldType: 'Text',<br>
 　　　fieldPlaceHolder: '请填写测试信息',<br>
 　　　isRequired: false,<br>
-　　},
-　　{
+　　},<br>
+　　{<br>
 　　　fieldName: 'descriptions',<br>
 　　　fieldType: 'Textarea',<br>
 　　　fieldPlaceHolder: '请填写退货描述',<br>
