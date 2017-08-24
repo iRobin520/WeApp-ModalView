@@ -41,6 +41,6 @@ this.modalView.showModal({<br>
 　　}],<br>
 　　confirm: function (res) {<br>
 　　　console.log(res)<br>
-　　　//用户按确定按钮以后会回到这里，并且对输入的表单数据会带回
+　　　//用户按确定按钮以后会回到这里，并且对输入的表单数据会带回<br>
 　　}<br>
 })<br>
