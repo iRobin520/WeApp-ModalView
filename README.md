@@ -4,7 +4,7 @@
 先上效果图：
 ![image](https://github.com/iRobin520/WeApp-ModalView/raw/master/effect.png)
 
-示列代码：
+示列代码：<br>
 在wxml文件中加入代码：<br>
 < import src="../../../../components/modal-view/modal-view.wxml" / ><br>
 < template is="modalView" data="{{ ...__modalView__ }}" / > <br>
