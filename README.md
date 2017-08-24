@@ -2,9 +2,13 @@
 微信小程序自定义模态弹窗，完全根据传入的数据值动态生成各种类型的组件
 
 调用方法举例：
+先上效果图：
+![image](https://github.com/iRobin520/WeApp-ModalView/raw/master/effect.png)
+
+示列代码：
 
 this.modalView.showModal({
-   title: '申请退货',
+   title: '申请退货',
    confirmation: true,
    confirmationText: '确定要申请退货吗？',
    inputFields: [{
