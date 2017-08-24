@@ -6,8 +6,8 @@
 
 示列代码：
 在wxml文件中加入代码：<br>
-< import src="../../../../components/modal-view/modal-view.wxml" / >
-< template is="modalView" data="{{ ...__modalView__ }}" / > 
+< import src="../../../../components/modal-view/modal-view.wxml" / ><br>
+< template is="modalView" data="{{ ...__modalView__ }}" / > <br>
 
 在js文件中加入代码：<br>
 import { ModalView } from '../../../../components/modal-view/modal-view'
