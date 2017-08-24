@@ -5,11 +5,11 @@
 ![image](https://github.com/iRobin520/WeApp-ModalView/raw/master/effect.png)
 
 示列代码：
-在wxml文件中加入代码：
-<import src="../../../../components/modal-view/modal-view.wxml"/>
-<template is="modalView" data="{{ ...__modalView__ }}"/>
+在wxml文件中加入代码：<br>
+\\<import src="../../../../components/modal-view/modal-view.wxml"/>
+\\<template is="modalView" data="{{ ...__modalView__ }}"/>
 
-在js文件中加入代码：
+在js文件中加入代码：<br>
 import { ModalView } from '../../../../components/modal-view/modal-view'
 
 在onLoad事件中加入：
