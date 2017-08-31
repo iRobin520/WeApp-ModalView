@@ -61,8 +61,8 @@
 }
 .input,.input_solo,.input_hd,.input_bd,.input_texarea {
   width: 100%;
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 70rpx;
+  line-height: 70rpx;
   font-size: 28rpx;
   padding: 0 20rpx;
   box-sizing: border-box;
@@ -74,7 +74,7 @@
 .input_texarea {
   height: 220rpx;
   line-height: 34rpx;
-  padding: 10rpx 20rpx;
+  padding: 10rpx 8rpx;
   border-top: 2rpx solid #ddd;
 }
 .input-holder {
